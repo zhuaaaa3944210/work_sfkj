@@ -1,0 +1,125 @@
+
+$colorRow:#E8E4DA;
+$colorBtn:#BBC4D6;
+$colorBtnHover:#5CD9FF;
+$colorContainer:#C8C8C1;
+$sidel:left;
+$sider:right;
+*{
+    font-family:"微软雅黑";
+    margin:0;
+    padding:0;
+    list-style: none;
+    outline: none;
+    border:0;
+    text-decoration: none;
+}
+
+@font-face{ 
+    font-family: 'Hybrid'; 
+    src: url('../fonts/a.TTF'); 
+} 
+@font-face{ 
+    font-family: 'wending'; 
+    src: url('../fonts/wending.TTF'); 
+} 
+@font-face{
+    font-family:'wide';
+    src:url('../fonts/OpenSans-Bold-webfont.woff');
+}
+@font-face{
+    font-family:'careful';
+    src:url('../fonts/OpenSans-Semibold-webfont.woff');
+}
+    // 头部
+.header{
+    width:90%;
+    position:fixed;
+    top:3%;
+    left:5%;
+    z-index: 1001;
+    background:#E8E4DA;
+    filter:alpha(opacity=80); /* IE */
+    -moz-opacity:0.8; /* 老版Mozilla */
+    -khtml-opacity:0.8; /* 老版Safari */
+    opacity: 0.8; /* 支持opacity的浏览器*/
+    border-radius:6px;
+    .logo{
+        float:left;
+        padding:1% 1%;
+    }
+    .dropdown{
+        display:none;
+        float:right;
+    }
+    .nav{
+        float:left;
+        margin-top:1%;
+        padding-left:5%;
+        width:auto;
+        a{
+            color:#000;
+            .dropdown-menu{
+                li{
+                    background: #FFF;
+                    a{ 
+
+                        color:#000;
+                    }
+                }
+            }
+        }
+        a:hover{
+            color:$colorBtnHover;
+        }
+        .dropdown-menu{
+            background: #fff;
+            margin:0;
+            a:hover{
+                color:$colorBtnHover;
+            }
+        }
+
+    }
+}
+.footer{
+    background: #4C4C4C;
+    .footer-link{
+        background: url("../img/fenge.png") no-repeat center;
+        border-bottom:1px solid #828282;
+        background-size:0.3% 70%;
+        .contact-us{
+        .left{
+            float:left;
+            width:50%;
+            a{
+                text-decoration:none;
+                h4{
+                    color:#F5F1F2;
+                    text-align:center;
+                }
+            }
+        }
+    }
+        .right{
+            float:right;
+            h3,h2,p{
+                color:#F5F1F2;
+                text-align: left;
+            }
+        }
+    }
+    .footer-text{
+        clear:both;
+        padding-top:0.5%;
+        p{
+            color:#F5F1F2;
+            padding-bottom:0.5%;
+            margin-bottom:0;
+            a{
+                text-decoration: none;
+                color:#F5F1F2;
+            }
+        }
+    }
+}

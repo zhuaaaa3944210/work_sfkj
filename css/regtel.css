@@ -1,0 +1,141 @@
+@media screen and (min-width: 1200px) {
+  .container-fluid .service {
+    height: auto;
+    cursor: pointer;
+    position: relative;
+  }
+  .container-fluid .service .tel1 {
+    display: block;
+    width: 347px;
+    height: 713px;
+    position: absolute;
+    left: 25%;
+    top: 10%;
+  }
+  .container-fluid .panel {
+    width: 34%;
+    height: auto;
+    position: absolute;
+    right: 8%;
+    top: 34%;
+    opacity: 0.6;
+    border: 3px solid #f3f0f0;
+  }
+  .container-fluid .panel .panel-title h3 {
+    text-align: center;
+    font-size: 32px;
+    color: #000;
+    font-weight: 700;
+    font-family: "a.TTF";
+  }
+  .container-fluid .panel .panel-title h3 i {
+    color: #ED8C03;
+    font-style: normal;
+  }
+  .container-fluid .panel .panel-body p {
+    width: 100%;
+    margin: 0 auto;
+    font-size: 24px;
+    font-family: "a.TTF";
+    color: #000;
+    text-align: left;
+  }
+  .container-fluid .panel .panel-body p span {
+    color: #ED8C03;
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: 1200px) and (min-width: 982px) {
+  .container-fluid .service {
+    height: auto;
+    cursor: pointer;
+    position: relative;
+  }
+  .container-fluid .service .tel1 {
+    display: block;
+    width: 347px;
+    height: 713px;
+    position: absolute;
+    left: 25%;
+    top: 10%;
+  }
+  .container-fluid .panel {
+    width: 34%;
+    height: auto;
+    position: absolute;
+    right: 6%;
+    top: 36%;
+    opacity: 0.68;
+    border: 2px solid #FFF;
+  }
+  .container-fluid .panel .panel-title h3 {
+    text-align: center;
+    font-size: 24px;
+    color: #000;
+    font-weight: 700;
+    font-family: "a.TTF";
+  }
+  .container-fluid .panel .panel-title h3 i {
+    color: #ED8C03;
+    font-style: normal;
+  }
+  .container-fluid .panel .panel-body p {
+    width: 100%;
+    margin: 0 auto;
+    font-size: 20px;
+    font-family: "a.TTF";
+    color: #000;
+    text-align: left;
+  }
+  .container-fluid .panel .panel-body p span {
+    color: #ED8C03;
+    margin-right: 10px;
+  }
+}
+
+@media screen and (max-width: 982px) {
+  .container-fluid .service {
+    height: auto;
+    cursor: pointer;
+    position: relative;
+  }
+  .container-fluid .service .tel1 {
+    display: block;
+    width: 200px;
+    height: 500px;
+    position: absolute;
+    left: 15%;
+    top: 10%;
+  }
+  .container-fluid .panel {
+    width: 60%;
+    height: auto;
+    position: absolute;
+    left: 30%;
+    top: 40%;
+    opacity: 0.6;
+    border: 3px solid #f3f0f0;
+  }
+  .container-fluid .panel .panel-title h3 {
+    text-align: center;
+    font-size: 16px;
+    color: #131212;
+    font-weight: 700;
+  }
+  .container-fluid .panel .panel-title h3 i {
+    color: #ED8C03;
+    font-style: normal;
+  }
+  .container-fluid .panel .panel-body p {
+    width: 100%;
+    margin: 0 auto;
+    font-size: 16px;
+    color: #333331;
+    text-align: left;
+  }
+  .container-fluid .panel .panel-body p span {
+    color: #ED8C03;
+    margin-right: 2%;
+  }
+}

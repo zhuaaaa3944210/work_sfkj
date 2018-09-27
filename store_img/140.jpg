@@ -1,0 +1,26 @@
+<!Doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>没有找到该页面---查错IT网</title>
+</head>
+<body style="text-align:center; margin:30px 100px;border:20px solid #ccc; ">
+<script>
+    var urlr = location.href;
+    if(urlr.indexOf("mail")!=-1)
+    {
+        location.href='http://24mail.chacuo.net';
+    }
+</script>
+<div style="text-align:left; padding:20px 50px;">
+<h1  style="left:0px;">温馨提示：</h1>
+<p>非常抱歉，你查找的信息不存在，或者已经被移除！<a href="http://24mail.chacuo.net/">随便看看</a></p>
+<p style="text-align:right;padding:20px 250px;">By:程默</p>
+</div>
+<!-- Baidu Button END -->
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F4183351950d6f3ac05fb254f4eec5518' type='text/javascript'%3E%3C/script%3E"));
+</script>
+</body>
+</html>

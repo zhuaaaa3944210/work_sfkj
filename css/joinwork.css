@@ -1,0 +1,57 @@
+.main {
+  overflow: hidden;
+  background: #F1F1F1;
+}
+
+.main .banner {
+  padding: 0;
+  padding-bottom: 3%;
+}
+
+.main .joinwork h3 {
+  font-size: 32px;
+  font-family: "wending";
+  padding: 60px 40px;
+}
+
+.main .joinwork p {
+  padding: 20px 40px;
+  letter-spacing: 3px;
+  font-size: 20px;
+  font-family: "wending";
+}
+
+.main .join-adv {
+  padding-bottom: 64px;
+}
+
+.main .join-adv h4 {
+  padding: 60px 40px;
+  font-size: 32px;
+}
+
+.footer {
+  margin-top: 0;
+}
+
+@media screen and (max-width: 768px) {
+  h3 {
+    font-size: 18px;
+  }
+  .join-dav h4 {
+    padding: 20px 10px;
+    font-size: 16px;
+  }
+  .join-dav li {
+    padding-left: 20px;
+  }
+  p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .join-adv li {
+    padding-left: 200px;
+  }
+}

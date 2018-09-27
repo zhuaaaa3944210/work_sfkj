@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="爽车网，爽车网官网,爽车洗车，上海爽车网络科技，洗车包一年，智能洗车，养护服务">
+
+    <meta name="description" content="上海爽车网络科技有限公司是一家以电商汽车后服务为主的新型网络技术服务公司。其自主研发搭建“爽车网” 垂直电商汽车后服务平台，采用互联网020模式，并特别推出爽车网会员，车主可通过下载“爽车网”APP，购买服务后通过APP上的卫星地图可就近选择任意一家汽车后服务服务网点洗车，并可以在洗车完成后对本次洗车服务进行评价。
+            
+            这一创举彻底解决如今洗车行业繁琐，排队难，耗时长，价格贵以及服务态度差等问题。
+            “爽车网”专业电商汽车后服务平台。
+            中国电商汽车后服务领导和先驱者。
+            
+            
+             “爽车网”的诞生给车主带来了最大便利，使车主无论是在本地城市日常生活还是在外地城市出差旅游，打开手机APP，随时可以预约附近洗车服务网点进行车辆清洗养护，“爽车网”网的定制服务，关怀备至，温馨到家。
+            
+            
+            “爽车网”平台将会联合全国线上各大汽车网站，线下各地的汽车后服务网点，以大数据实现资源共享，加强业务交互，增进互动沟通，从而进一步实现合作共赢，互惠互利。
+            国家大力提倡发展“互联网+”的大环境下，在全球掀起“跨境电商热”的浪潮中，“爽车网” 电商汽车后服务平台响应了国家的号召，把互联网与传统行业完美结合，将国家政策落到实处，同时也顺应了市场需求，在电商发展日趋成熟的今天，做电商汽车后服务o2o的领导者和先驱者，便捷了车主，惠利了整个汽车后服务行业，一举多得，利在千秋！">
+    <title>附近网点</title>
+    <style>
+        /* 地图的样式 */
+    </style>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/neardot.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/respon_common.css">
+    <script type="text/javascript" src="http://api.map.baidu.com/library/AreaRestriction/1.2/src/AreaRestriction_min.js"></script>
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=n9CM1kazCd0mUmbwD25Y6OhZKgtlqteG">
+        //v2.0版本的引用方式：src="http://api.map.baidu.com/api?v=2.0&ak=您的密钥"
+    </script>
+</head>
+
+<body>
+    <div class="header center-block">
+        <div class="container">
+            <div class="row center-block">
+                <!-- logo标志 -->
+                <div class="logo class=" col-xs-6 col-sm-2 col-md-2 col-lg-2 "">
+                    <a href="index.html">
+                        <img src="img/a0.png" alt="" class="img-responsive">
+                    </a>
+                </div>
+                <!-- 下拉按钮 dropdown-->
+                <div class="dropdown col-xs-6">
+                    <button class="btn btn-default dropdown-toggle glyphicon glyphicon-menu-hamburger" type="button" id="dropdownMenu2" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        <!-- <span class="caret"></span> -->
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-right " aria-labelledby="dropdownMenu2">
+                        <li>
+                            <a href="index.html">首页</a>
+                        </li>
+                        <li>
+                            <a href="regtel.html">会员注册</a>
+                        </li>
+                        <li>
+                            <a href="user.html">会员服务</a>
+                        </li>
+                        <li>
+                            <a href="joinwork.html">商务合作</a>
+                        </li>
+                        <li>
+                            <a href="qycolture.html">关于我们</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- .nav-justified 类可以很容易的让标签页或胶囊式标签呈现出同等宽度。在小屏幕上，导航链接呈现堆叠样式。 -->
+                <ul class="nav nav-pills  col-sm-5 col-md-6 col-md-offset-2 col-lg-6 col-lg-offset-3">
+                    <li role="presentation">
+                        <a href="index.html">首页</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="regtel.html">会员注册</a>
+                    </li>
+                    <li role="presentation">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="user.html" role="button" aria-haspopup="true" aria-expanded="false">
+                            会员服务
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="user.html">会员介绍</a>
+                                <a href="weixinkh.html">使用说明</a>
+                                <a href="">优惠活动</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li role="presentation">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="joinwork.html" role="button" aria-haspopup="true" aria-expanded="false">
+                            商务合作
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="checkin.html">网点入驻</a>
+                                <a href="joinwork.html">经销合作</a>
+                                <a href="contact.html">联系我们</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li role="presentation">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="qycolture.html" role="button" aria-haspopup="true" aria-expanded="false">
+                            关于我们
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="qycolture.html">企业文化</a>
+                                <a href="neardot.html">服务网点</a>
+                                <a href="event.html">大事记</a>
+                                <a href="JoinUs.html">加入我们</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- 内容 -->
+    <section>
+        <!-- 顶部大图 -->
+        <div class="img">
+            <img src="img/nd1.png" alt="" class="img-responsive">
+        </div>
+        <!-- 中部 -->
+        <div class="container">
+            <div class="row">
+                <!-- 左边 -->
+                <div class="col-md-2 sidebar pre-scrollable">
+                    <ul class="list-group">
+                        <li class="list-group-item">天津市</li>
+                        <li class="list-group-item">北京市</li>
+                        <li class="list-group-item">重庆市</li>
+                        <li class="list-group-item active">上海市</li>
+                        <li class="list-group-item">河北省</li>
+                        <li class="list-group-item">山西省</li>
+                        <li class="list-group-item">辽宁省</li>
+                        <li class="list-group-item">吉林省</li>
+                        <li class="list-group-item">黑龙江省</li>
+                        <li class="list-group-item">江苏省</li>
+                        <li class="list-group-item">浙江省</li>
+                        <li class="list-group-item">安徽省</li>
+                        <li class="list-group-item">福建省</li>
+                        <li class="list-group-item">江西省</li>
+                        <li class="list-group-item">山东省</li>
+                        <li class="list-group-item">河南省</li>
+                        <li class="list-group-item">湖北省</li>
+                        <li class="list-group-item">湖南省</li>
+                        <li class="list-group-item">广东省</li>
+                        <li class="list-group-item">海南省</li>
+                        <li class="list-group-item">四川省</li>
+                        <li class="list-group-item">贵州省</li>
+                        <li class="list-group-item">云南省</li>
+                        <li class="list-group-item">陕西省</li>
+                        <li class="list-group-item">甘肃省</li>
+                        <li class="list-group-item">青海省</li>
+                        <li class="list-group-item">内蒙古自治区</li>
+                        <li class="list-group-item">广西壮族自治区</li>
+                        <li class="list-group-item">西藏自治区</li>
+                        <li class="list-group-item">宁夏回族自治区</li>
+                        <li class="list-group-item">新疆维吾尔自治区</li>
+                    </ul>
+                </div>
+                <!-- 右边 -->
+                <div class="col-md-10 right-city">
+                    <!-- <select name="" id="right-city">
+                        <option value="" style="font-size:18px;color:#333333"></option>
+                    </select> -->
+                    <h3 style="font-size:12px;color:#0c0b0b;width:100px;height:20px;background:rgb(240, 234, 234);text-align:center;line-height:20px">上海市</h3>
+                    <div class="menu">
+                        <div style="float:left">全部（）</div>
+                        <ul style="float:left;width:90%">
+                            <li>
+                                <a href="" onclick="return false">黄浦区</a>
+                            </li>
+                            <li>
+                                <a href="" onclick="return false">徐汇区</a>
+                            </li>
+                            <li class="on">
+                                <a href=""   onclick="return false">长宁区</a>
+                            </li>
+                            <li>
+                                <a href="" onclick="return false">静安区</a>
+                            </li>
+                            <li>
+                                <a href="" onclick="return false">普陀区</a>
+                            </li>
+                            <li>
+                                <a href="" onclick="return false">虹口区</a>
+                            </li>
+                            <li>
+                                <a href="" onclick="return false">杨浦区</a>
+                            </li>
+                            <li>
+                                <a href="" onclick="return false">闵行区</a>
+                            </li>
+                            <li>
+                                <a href="" onclick="return false">宝山区</a>
+                            </li>
+                            <li>
+                                <a href="" onclick="return false">嘉定区</a>
+                            </li>
+                            <li>
+                                <a href="" onclick="return false">浦东新区</a>
+                            </li>
+                            <li>
+                                <a href="" onclick="return false">金山区</a>
+                            </li>
+                            <li>
+                                <a href="" onclick="return false">松江区</a>
+                            </li>
+                            <li>
+                                <a href="" onclick="return false">青浦区</a>
+                            </li>
+                            <li>
+                                <a href="" onclick="return false">奉贤区</a>
+                            </li>
+                            <li>
+                                <a href="" onclick="return false">崇明县</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="search form-group">
+                        <input class="form-control  center-block" type="text" placeholder="搜索附近网点" style="width:50%;height:50px;float:left;clear:both;margin-left:20%;border:1px solid #DD6902;text-align:center;
+                        font-size:20px;color:#DD6902 ">
+                        <a href="###">
+                            <img src="img/nd9.png" alt="" class="img-responsive">
+                        </a>
+                    </div>
+                    <div class="dot-list">
+                        <div class="row">
+                            <!-- 地图边上的列表 -->
+                            <div class="col-md-4 map-side pull-left">
+                                <div class="list-group">
+                                        <div class='list-group-item'>
+                                            <img src='store_img/483.jpg' alt='' class='list-group-item-img img-responsive pull-left' style='width:96px;height:72px;margin-right:12px'> 
+                                            <h2 class='list-group-item-heading' style='font-size:14px;'>海榕汽车养护中心</h2><p class='list-group-item-text' style='font-size:12px;'>长宁区双流路46-48号</p><h4 style='font-size:12px;'>18726856770</h4>
+                                        </div>
+                                        <div class='list-group-item'>
+                                                <img src='store_img/940.jpg' alt='' class='list-group-item-img img-responsive pull-left' style='width:96px;height:72px;margin-right:12px'> 
+                                                <h2 class='list-group-item-heading' style='font-size:14px;'>锐捷汽车养护中心</h2><p class='list-group-item-text' style='font-size:12px;'>长宁区泉口路152号</p><h4 style='font-size:12px;'>15021999302</h4>
+                                            </div>
+                                </div>
+                            </div>
+                            <!-- 地图 -->
+                            <div class="col-md-8 map pull-left">
+                                <div id="container"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+    <div class="footer">
+        <div class="footer-link">
+            <div class="container">
+                <div class="row center-block">
+                    <div class="contact-us col-sm-12 col-md-12 col-lg-12 center-block">
+                        <div class="row">
+                            <div class="left">
+                                <a href="https://weibo.com/u/6466248406?from=myfollow_all" id="wb" class="col-sm-6 col-md-6 col-lg-6">
+                                    <img src="img/weibo.png" alt="" class="img-responsive">
+                                    <h4 class="text-center">官方微博</h4>
+                                </a>
+                                <a href="" id="wx" class="col-sm-6 col-md-6 col-lg-6">
+                                    <img src="img/weixin.png" alt="" class="img-responsive">
+                                    <h4 class="text-center">微信公众号</h4>
+                                </a>
+                            </div>
+
+                            <div class="right col-sm-6 col-md-6 col-lg-6 center-block">
+                                <h3>客服电话</h3>
+                                <h2>400-008-8051</h2>
+                                <p>(周一到周日9:00-18:00)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-text text-center">
+            <p>Copyright ©2018-2018 shuangchewang.com All Rights Reserved. 爽车网</p>
+            <p><a href="http://www.miitbeian.gov.cn">沪ICP备18004565号-1 文网文[2018]024号 新出网证(沪)字069 沪公网安备11000002000006号 工商营业执照</a></p>
+        </div>
+    </div>
+    <script src="js/jquery.js"></script>
+    <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
+    <!-- <script src="js/city.js"></script> -->
+    <script src="js/common.js"></script>
+    <script src="js/neardot.js"></script>
+    <script type="text/javascript" src="js/jquery.lazyload.js"></script>
+    <script>
+        function lazyLoad(){
+            $("img.lazy").loadlazy({
+                effect:'fadeIn'
+            })
+        }
+        // 编写自定义函数,创建标注
+        // function addMarker(point){
+        // var marker = new BMap.Marker(point);
+        // map.addOverlay(marker);
+        // }
+        // // 百度地图API功能
+        // var map = new BMap.Map("container");
+        // map.centerAndZoom(new BMap.Point(116.404, 39.915), 13);
+        // map.enableScrollWheelZoom();
+        // var b = new BMap.Bounds(new BMap.Point(116.027143, 39.772348),new BMap.Point(116.832025, 40.126349));
+        // try {    
+        //     BMapLib.AreaRestriction.setBounds(map, b);
+        // } catch (e) {
+        //     alert(e);
+        // }
+    </script>
+</body>

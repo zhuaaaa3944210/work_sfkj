@@ -1,0 +1,104 @@
+.main .banner {
+  padding: 0;
+  padding-bottom: 0;
+}
+
+.main .memservice {
+  background: #F5F1F2;
+  padding: 10% 5%;
+  margin-bottom: 0;
+  clear: both;
+}
+
+.main .memservice .panel {
+  background: #F5F1F2;
+}
+
+.footer {
+  margin-top: 0;
+}
+
+@media (max-width: 970px) and (min-width: 768px) {
+  .memservice .left {
+    padding-left: 5%;
+  }
+  .memservice .right .panel-title, .memservice .right .panel-body {
+    padding: 0;
+  }
+  .memservice .right h1 {
+    font-size: 20px;
+    color: #F1B60C;
+    font-weight: 700;
+    font-family: 'wending';
+  }
+  .memservice .right em {
+    font-weight: 700;
+    font-family: 'wending';
+  }
+  .memservice .right p {
+    font-size: 14px;
+    color: #343434;
+    font-weight: 600;
+    margin-bottom: 8px;
+    font-family: 'wending';
+  }
+  .memservice .right h2 {
+    font-size: 14px;
+    color: #CE0702;
+    font-weight: 600;
+    font-family: 'wending';
+  }
+}
+
+@media (max-width: 1200px) and (min-width: 970px) {
+  .memservice .right h1 {
+    margin-bottom: 30px;
+    font-size: 32px;
+    color: #EFA60C;
+    font-weight: 700;
+  }
+  .memservice .right p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #343434;
+    font-weight: 700;
+  }
+  .memservice .right h2 {
+    font-size: 18px;
+    color: #CE0702;
+    font-weight: 700;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .memservice {
+    margin: 0 auto;
+    padding-left: 5%;
+  }
+  .memservice .right h1 {
+    font-size: 48px;
+    color: #EFA60C;
+    font-weight: 700;
+    font-family: 'wending';
+  }
+  .memservice .right em {
+    font-size: 24px;
+    display: block;
+    font-weight: 700;
+    font-family: 'wending';
+    margin-bottom: 12px;
+  }
+  .memservice .right p {
+    font-size: 24px;
+    color: #343434;
+    font-weight: 700;
+    margin-bottom: 8px;
+    font-family: 'wending';
+  }
+  .memservice .right h2 {
+    font-size: 24px;
+    color: #CE0702;
+    font-weight: 700;
+    font-family: 'wending';
+  }
+}

@@ -1,0 +1,46 @@
+.main {
+  overflow: hidden;
+  background: #FAFAF9;
+}
+
+.main .banner {
+  padding: 0;
+  padding-bottom: 0;
+}
+
+.main .container .row .list-group {
+  width: 100%;
+  padding-top: 82px;
+}
+
+.main .container .row .list-group .list-group-item {
+  width: 80%;
+  height: 600px;
+  border: 0;
+  background: #FAFAF9;
+}
+
+.main .container .row .list-group .list-group-item a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  border-top: 1px solid #EBE9E6;
+}
+
+.main .container .row .list-group .list-group-item a h3 {
+  font-weight: 700;
+  text-align: center;
+  line-height: 40px;
+  color: #3D3129;
+  overflow: hidden;
+  margin-bottom: 46px;
+}
+
+.main .container .row .list-group .list-group-item a p {
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 36px;
+  color: #3D3129;
+  margin-left: 0;
+}

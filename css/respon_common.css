@@ -1,0 +1,208 @@
+@media screen and (min-width: 1200px) {
+  .header .nav {
+    padding-left: 18%;
+  }
+  .header .nav a {
+    font-size: 16px;
+  }
+  .footer {
+    clear: both;
+  }
+  .footer .left {
+    padding-top: 30px;
+  }
+  .footer .left .col-md-6 h4 {
+    width: 44%;
+    font-size: 16px;
+  }
+  .footer .right {
+    cursor: pointer;
+    padding: 3% 12%;
+  }
+  .footer .right h3, .footer .right h2, .footer .right p {
+    font-size: 14px;
+    font-family: "wending.TTF";
+    padding-bottom: 2%;
+  }
+  .footer-text p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+  .header .nav {
+    display: block;
+    padding-left: 6%;
+  }
+  .header .nav a {
+    font-size: 16px;
+  }
+  .footer {
+    clear: both;
+  }
+  .footer .left {
+    padding-top: 30px;
+  }
+  .footer .left .col-md-6 h4 {
+    font-size: 16px;
+    width: 54%;
+  }
+  .footer .right {
+    cursor: pointer;
+    padding: 3% 8%;
+  }
+  .footer .right h3, .footer .right h2, .footer .right p {
+    font-size: 16px;
+    font-family: "wending.TTF";
+    padding-bottom: 2%;
+  }
+  .footer-text p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+  .header .dropdown {
+    display: none;
+  }
+  .header .nav {
+    display: block;
+    float: left;
+    margin-top: 1%;
+    padding-left: 18%;
+  }
+  .header .nav a {
+    font-size: 12px;
+  }
+  .footer {
+    clear: both;
+  }
+  .footer .left {
+    padding-top: 30px;
+  }
+  .footer .left .col-md-6 h4 {
+    font-size: 16px;
+    width: 74%;
+  }
+  .footer .right {
+    cursor: pointer;
+    padding: 2% 8%;
+  }
+  .footer .right h3, .footer .right h2, .footer .right p {
+    font-size: 16px;
+    font-family: "wending.TTF";
+    padding-bottom: 2%;
+  }
+  .footer-text p {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header .dropdown {
+    display: block;
+    width: 8%;
+    padding: 1%;
+  }
+  .header .nav {
+    display: none;
+  }
+  .footer .left {
+    padding: 16%;
+  }
+  .footer .left h4 {
+    font-size: 18px;
+    width: 100%;
+  }
+  .footer .right {
+    width: 44%;
+    margin-top: 240px;
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 640px) {
+  .header .dropdown {
+    width: 8%;
+  }
+  .footer .footer-link .contact-us .left {
+    padding: 14%;
+  }
+  .footer .footer-link .contact-us .left h4 {
+    font-size: 16px;
+  }
+  .footer .footer-link .contact-us .right {
+    width: 40%;
+    margin-top: 210px;
+    margin-left: 20px;
+  }
+  .footer .footer-link .contact-us .right h3, .footer .footer-link .contact-us .right h2, .footer .footer-link .contact-us .right p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 550px) {
+  .header .dropdown {
+    width: 8%;
+  }
+  .footer .footer-link .contact-us .left {
+    padding: 14%;
+  }
+  .footer .footer-link .contact-us .left h4 {
+    font-size: 12px;
+  }
+  .footer .footer-link .contact-us .right {
+    width: 40%;
+    margin-top: 182px;
+    margin-left: 18px;
+  }
+  .footer .footer-link .contact-us .right h3, .footer .footer-link .contact-us .right h2, .footer .footer-link .contact-us .right p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header .dropdown {
+    width: 14%;
+  }
+  .footer .footer-link .contact-us .left {
+    padding: 8%;
+  }
+  .footer .footer-link .contact-us .left h4 {
+    font-size: 16px;
+  }
+  .footer .footer-link .contact-us .right {
+    width: 40%;
+    margin-top: 180px;
+    margin-left: 20px;
+  }
+  .footer .footer-link .contact-us .right h3, .footer .footer-link .contact-us .right h2, .footer .footer-link .contact-us .right p {
+    font-size: 14px;
+  }
+  .footer-text {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 320px) {
+  .header .dropdown {
+    width: 14%;
+  }
+  .footer .footer-link .contact-us .left {
+    padding: 6%;
+  }
+  .footer .footer-link .contact-us .left h4 {
+    font-size: 16px;
+  }
+  .footer .footer-link .contact-us .right {
+    width: 40%;
+    margin-top: 140px;
+    margin-left: 20px;
+  }
+  .footer .footer-link .contact-us .right h3, .footer .footer-link .contact-us .right h2, .footer .footer-link .contact-us .right p {
+    font-size: 14px;
+  }
+  .footer-text {
+    font-size: 12px;
+  }
+}

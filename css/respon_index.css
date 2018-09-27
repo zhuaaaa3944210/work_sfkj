@@ -1,0 +1,520 @@
+@media screen and (max-width: 320px) {
+  .main .banner-list {
+    display: none;
+  }
+  .bg {
+    width: 100%;
+    margin-top: 4px;
+  }
+  .bg .join-text {
+    padding-top: 180px;
+  }
+  .bg .join-text h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  .bg .join-text p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  .bg .join-text a {
+    font-size: 14px;
+    border-radius: 40px;
+    width: 140px;
+    padding: 8px 12px;
+  }
+  .dongtai {
+    display: none;
+  }
+  .footer {
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 480px) {
+  .main .banner-list {
+    display: none;
+  }
+  .bg {
+    width: 100%;
+    margin-top: 4px;
+  }
+  .bg .join-text {
+    padding-top: 180px;
+  }
+  .bg .join-text h3 {
+    font-size: 24px;
+    margin-bottom: 4px;
+  }
+  .bg .join-text p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  .bg .join-text a {
+    font-size: 14px;
+    border-radius: 40px;
+    width: 140px;
+    padding: 8px 12px;
+  }
+  .dongtai {
+    display: none;
+  }
+  .footer {
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 550px) {
+  .main .banner-list {
+    width: 100%;
+    top: 80%;
+  }
+  .main .banner-list ul {
+    padding-left: 0;
+  }
+  .main .banner-list ul li {
+    width: 24%;
+    height: 40px;
+  }
+  .bg {
+    width: 100%;
+    margin-top: 4px;
+  }
+  .bg .join-text {
+    padding-top: 180px;
+  }
+  .bg .join-text h3 {
+    font-size: 24px;
+    margin-bottom: 4px;
+  }
+  .bg .join-text p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  .bg .join-text a {
+    font-size: 14px;
+    border-radius: 40px;
+    width: 140px;
+    padding: 8px 12px;
+  }
+  .dongtai {
+    display: none;
+  }
+  .footer {
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 551px) and (max-width: 640px) {
+  .main .banner-list {
+    width: 100%;
+    top: 80%;
+  }
+  .main .banner-list ul {
+    padding-left: 0;
+  }
+  .main .banner-list ul li {
+    width: 18%;
+    height: 40px;
+  }
+  .bg {
+    width: 100%;
+    margin-top: 4px;
+  }
+  .bg .join-text {
+    padding-top: 180px;
+  }
+  .bg .join-text h3 {
+    font-size: 24px;
+    margin-bottom: 4px;
+  }
+  .bg .join-text p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  .bg .join-text a {
+    font-size: 14px;
+    border-radius: 40px;
+    width: 140px;
+    padding: 8px 12px;
+  }
+  .dongtai {
+    margin-bottom: 4px;
+  }
+  .dongtai ul {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  .dongtai ul li {
+    width: 48%;
+  }
+  .dongtai ul li .panel-body .right a {
+    width: 250px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+  }
+  .footer {
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 767px) {
+  .main .banner-list {
+    width: 100%;
+    top: 80%;
+  }
+  .main .banner-list ul {
+    padding-left: 0;
+  }
+  .main .banner-list ul li {
+    width: 16%;
+    height: 40px;
+  }
+  .service {
+    width: 100%;
+  }
+  .service .col-xs-12 {
+    padding: 4px;
+    margin-bottom: 2px;
+    margin-right: 0;
+  }
+  .service .col-xs-12 .cell {
+    height: 580px;
+    width: 100%;
+  }
+  .service .col-xs-12 .cell h3 {
+    font-size: 26px;
+    margin-bottom: 10px;
+  }
+  .service .col-xs-12 .cell p {
+    font-size: 18px;
+    margin-bottom: 14px;
+  }
+  .service .col-xs-12 .cell .r1 {
+    font-size: 20px;
+    padding: 8px 18px;
+  }
+  .bg {
+    width: 100%;
+    margin-top: 4px;
+  }
+  .bg .join-text {
+    padding-top: 180px;
+  }
+  .bg .join-text h3 {
+    font-size: 24px;
+    margin-bottom: 4px;
+  }
+  .bg .join-text p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  .bg .join-text a {
+    font-size: 14px;
+    border-radius: 40px;
+    width: 140px;
+    padding: 8px 12px;
+  }
+  .dongtai {
+    margin-bottom: 4px;
+  }
+  .dongtai ul {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  .dongtai ul li {
+    width: 48%;
+  }
+  .dongtai ul li .panel-body .right a {
+    width: 250px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+  }
+  .footer {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+  .main {
+    width: 100%;
+  }
+  .main .banner-list {
+    width: 80%;
+    top: 86%;
+    left: 7%;
+  }
+  .main .banner-list ul {
+    padding-left: 0;
+  }
+  .main .banner-list ul li {
+    width: 14%;
+    height: 40px;
+  }
+  .service {
+    width: 100%;
+  }
+  .service .col-xs-12 {
+    padding: 4px;
+    margin-bottom: 2px;
+    margin-right: 0;
+  }
+  .service .col-xs-12 .cell {
+    height: 580px;
+    width: 100%;
+  }
+  .service .col-xs-12 .cell h3 {
+    font-size: 24px;
+    margin-bottom: 12px;
+  }
+  .service .col-xs-12 .cell p {
+    font-size: 18px;
+    margin-bottom: 14px;
+  }
+  .service .col-xs-12 .cell .r1 {
+    font-size: 20px;
+    padding: 8px 18px;
+  }
+  .bg {
+    width: 100%;
+    margin-top: 4px;
+  }
+  .bg .join-text {
+    padding-top: 180px;
+  }
+  .bg .join-text h3 {
+    font-size: 24px;
+    margin-bottom: 4px;
+  }
+  .bg .join-text p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  .bg .join-text a {
+    font-size: 14px;
+    border-radius: 40px;
+    width: 140px;
+    padding: 8px 12px;
+  }
+  .dongtai {
+    margin-bottom: 4px;
+  }
+  .dongtai ul {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  .dongtai ul li {
+    width: 48%;
+  }
+  .dongtai ul li .panel-body .right a {
+    width: 250px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+  .main {
+    width: 90%;
+  }
+  .main .banner-list {
+    width: 80%;
+    top: 86%;
+    left: 10%;
+  }
+  .main .banner-list ul {
+    padding-left: 0;
+  }
+  .main .banner-list ul li {
+    width: 48%;
+    height: 40px;
+  }
+  .service {
+    width: 100%;
+  }
+  .service .col-xs-12 {
+    padding: 4px;
+    margin-bottom: 2px;
+    margin-right: 0;
+  }
+  .service .col-xs-12 .cell {
+    height: 580px;
+    width: 100%;
+  }
+  .service .col-xs-12 .cell h3 {
+    font-size: 24px;
+    margin-bottom: 12px;
+  }
+  .service .col-xs-12 .cell p {
+    font-size: 18px;
+    margin-bottom: 14px;
+  }
+  .service .col-xs-12 .cell .r1 {
+    font-size: 20px;
+    padding: 8px 18px;
+  }
+  .bg {
+    width: 100%;
+    margin-top: 4px;
+  }
+  .bg .join-text {
+    padding-top: 180px;
+  }
+  .bg .join-text h3 {
+    font-size: 24px;
+    margin-bottom: 4px;
+  }
+  .bg .join-text p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  .bg .join-text a {
+    font-size: 14px;
+    border-radius: 40px;
+    width: 140px;
+    padding: 8px 12px;
+  }
+  .dongtai {
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+  .dongtai ul {
+    width: 100%;
+    height: auto;
+  }
+  .dongtai ul li {
+    float: left;
+    width: 48%;
+    height: 220px;
+  }
+  .dongtai ul li .lg {
+    background: url("../img/a10.png") no-repeat center;
+    background-size: cover;
+    margin-bottom: 20px;
+  }
+  .dongtai ul li .lg h3 {
+    text-align: center;
+  }
+  .dongtai ul li .panel-body {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  .dongtai ul li .panel-body .left {
+    margin-right: 10px;
+  }
+  .dongtai ul li .panel-body .right a {
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    padding: 3px;
+    color: #333333;
+    text-decoration: none;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .main {
+    width: 90%;
+  }
+  .main .banner-list {
+    width: 80%;
+    top: 86%;
+    left: 10%;
+  }
+  .main .banner-list ul {
+    padding-left: 0;
+  }
+  .main .banner-list ul li {
+    width: 14%;
+    height: 40px;
+  }
+  .service {
+    width: 100%;
+  }
+  .service .col-xs-12 {
+    padding: 4px;
+    margin-bottom: 2px;
+    margin-right: 0;
+  }
+  .service .col-xs-12 .cell {
+    height: 580px;
+    width: 100%;
+  }
+  .service .col-xs-12 .cell h3 {
+    font-size: 26px;
+    margin-bottom: 10px;
+  }
+  .service .col-xs-12 .cell p {
+    font-size: 18px;
+    margin-bottom: 14px;
+  }
+  .service .col-xs-12 .cell .r1 {
+    font-size: 20px;
+    padding: 8px 18px;
+  }
+  .bg {
+    width: 100%;
+    margin-top: 4px;
+  }
+  .bg .join-text {
+    padding-top: 180px;
+  }
+  .bg .join-text h3 {
+    font-size: 26px;
+    margin-bottom: 10px;
+  }
+  .bg .join-text p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  .bg .join-text a {
+    width: 140px;
+    font-size: 14px;
+    border-radius: 40px;
+    padding: 8px 12px;
+  }
+  .dongtai {
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+  .dongtai ul {
+    width: 100%;
+    height: auto;
+  }
+  .dongtai ul li {
+    float: left;
+    width: 50%;
+    height: 220px;
+  }
+  .dongtai ul li .lg {
+    background: url("../img/a10.") no-repeat center;
+    background-size: cover;
+    margin-bottom: 20px;
+  }
+  .dongtai ul li .lg h3 {
+    text-align: center;
+  }
+  .dongtai ul li .panel-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .dongtai ul li .panel-body .left {
+    margin-right: 5px;
+  }
+  .dongtai ul li .panel-body .right a {
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    padding: 3px;
+    color: #333333;
+    text-decoration: none;
+  }
+}

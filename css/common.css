@@ -1,0 +1,139 @@
+@charset "UTF-8";
+* {
+  font-family: "微软雅黑";
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  outline: none;
+  border: 0;
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: 'Hybrid';
+  src: url("../fonts/a.TTF");
+}
+
+@font-face {
+  font-family: 'wending';
+  src: url("../fonts/wending.TTF");
+}
+
+@font-face {
+  font-family: 'wide';
+  src: url("../fonts/OpenSans-Bold-webfont.woff");
+}
+
+@font-face {
+  font-family: 'careful';
+  src: url("../fonts/OpenSans-Semibold-webfont.woff");
+}
+
+.header {
+  width: 90%;
+  position: fixed;
+  top: 3%;
+  left: 5%;
+  z-index: 1001;
+  background: #E8E4DA;
+  filter: alpha(opacity=80);
+  /* IE */
+  -moz-opacity: 0.8;
+  /* 老版Mozilla */
+  -khtml-opacity: 0.8;
+  /* 老版Safari */
+  opacity: 0.8;
+  /* 支持opacity的浏览器*/
+  border-radius: 6px;
+}
+
+.header .logo {
+  float: left;
+  padding: 1% 1%;
+}
+
+.header .dropdown {
+  display: none;
+  float: right;
+}
+
+.header .nav {
+  float: left;
+  margin-top: 1%;
+  padding-left: 5%;
+  width: auto;
+}
+
+.header .nav a {
+  color: #000;
+}
+
+.header .nav a .dropdown-menu li {
+  background: #FFF;
+}
+
+.header .nav a .dropdown-menu li a {
+  color: #000;
+}
+
+.header .nav a:hover {
+  color: #5CD9FF;
+}
+
+.header .nav .dropdown-menu {
+  background: #fff;
+  margin: 0;
+}
+
+.header .nav .dropdown-menu a:hover {
+  color: #5CD9FF;
+}
+
+.footer {
+  background: #4C4C4C;
+}
+
+.footer .footer-link {
+  background: url("../img/fenge.png") no-repeat center;
+  border-bottom: 1px solid #828282;
+  background-size: 0.3% 70%;
+}
+
+.footer .footer-link .contact-us .left {
+  float: left;
+  width: 50%;
+}
+
+.footer .footer-link .contact-us .left a {
+  text-decoration: none;
+}
+
+.footer .footer-link .contact-us .left a h4 {
+  color: #F5F1F2;
+  text-align: center;
+}
+
+.footer .footer-link .right {
+  float: right;
+}
+
+.footer .footer-link .right h3, .footer .footer-link .right h2, .footer .footer-link .right p {
+  color: #F5F1F2;
+  text-align: left;
+}
+
+.footer .footer-text {
+  clear: both;
+  padding-top: 0.5%;
+}
+
+.footer .footer-text p {
+  color: #F5F1F2;
+  padding-bottom: 0.5%;
+  margin-bottom: 0;
+}
+
+.footer .footer-text p a {
+  text-decoration: none;
+  color: #F5F1F2;
+}
